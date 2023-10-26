@@ -1,20 +1,20 @@
-#!/usr/bin/env bash
-# Gives information about 'achool'  file
+!/usr/bin/env bash
+# Displays information about file `Bestschool`.
 
-if [ -e "school" ]
+if [ -e "Bestschool" ]
 then
-  echo "school file exists"
-  if [ -s "school" ]
+  echo "Bestschool file exists"
+  if [ -s "Bestschool" ]
   then
-    echo "school file not empty"
+    echo "Bestschool file is not empty"
   else
-    echo "school file empty"
+    echo "Bestschool file is empty"
   fi
 
-  if [ -f "school" ]
+  if [ -f "Bestschool" ]
   then
-    echo "school a regular file"
+    echo "Bestschool is regular file"
   fi
 else
-  echo "school file does not exist"
+  echo "Bestschool file doesn't exist"
 fi
