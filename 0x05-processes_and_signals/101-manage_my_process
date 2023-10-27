@@ -11,7 +11,7 @@ elif [ -n "$2" ]
 fi
 
 
-# executet command line arguments
+# executet the command line arguments
 if [ "$1" == "start" ]
 then
   ./manage_my_process &
