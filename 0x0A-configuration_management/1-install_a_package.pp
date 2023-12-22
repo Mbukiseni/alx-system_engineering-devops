@@ -1,6 +1,6 @@
-# Installs flask(ver 2.1.0)
+include python
 
-package { 'flask':
+python::pip { 'flask':
   ensure   => '2.1.0',
   provider => 'pip3',
 }
